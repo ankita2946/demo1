@@ -1,0 +1,33 @@
+Create a Git repository, initialize it, and add a Python project
+Step 1: Create a Project Directory
+mkdir git-prac3
+cd git-prac3
+
+Step 2: Create a Sample Python Project
+echo "print('Hello from main branch')" > app.py
+
+Step 3: Initialize Git
+git init
+
+Step 4: Add Files and Commit
+git add .
+git commit -m "Initial commit with basic app.py"
+
+Step 5: Create a Remote Repo on GitHub
+● Go to https://github.com
+● Click New Repository → Name: git-prac3
+● DO NOT initialize with README
+
+Step 6: Add Remote and Push(in VSCode)
+git remote add origin https://github.com/YOUR_USERNAME/git-prac3.git
+git branch -M main
+git push -u origin main
+
+
+b. Demonstrate branching and pull requests
+Step 1: Create a Feature Branch
+git checkout -b feature/greet-user
+
+Step 2: Add New Code
+Edit app.py:
+name = input("Enter your name: ")
