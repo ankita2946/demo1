@@ -1,0 +1,45 @@
+
+
+Practical 5: Java and MongoDB
+
+A)	Connecting Java with MongoDB and inserting,retriving,updating and deleting.
+
+Step1: Set the MongoDB server path :
+              
+
+Step2: We require a jar file to connect java with MongoDB for this we have to create a new variable called classpath whose value will be the address of this jar file in the system variable of environment variable.
+
+ 
+
+Step3: We also have to put the path of java till bin folder in the path variable of the system variables of the environment variable.
+
+
+ 
+Step4 : Write a java code and open the Mongo Shell.               
+A.	Insert the Document in MongoDB using Java.              
+o	Compile the java code  and execute it.
+ 
+
+o	To check the output we need to type the following commands into        
+MongoShell
+•	show dbs: To check the data base is created or not.  
+
+•	If the database is created use the database by using  use Database_Name 
+•	Now we need to check collection is created or not using show collections 
+ 
+•	To check the document type db.collection_name.find()
+ 
+
+B.	 Update the document in MongoDB using Java.
+ 
+ 
+ 
+C.	Retrieve the Document in MongoDB using Java
+ 
+
+            
+
+D.	Delete the Document in MongoDB using Java
+ 
+ 
+
